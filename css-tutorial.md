@@ -288,7 +288,11 @@ div > p {
     </nav>
 </body>
 </html>
+```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+
+![f1](https://github.com/user-attachments/assets/5b725ea4-6664-4773-93f2-bf810ec00609)
+![f1](https://github.com/user-attachments/assets/5b725ea4-6664-4773-93f2-bf810ec00609)
 
 
 [](#การทดลองที่-3-การจัดการสีและพื้นหลัง)
@@ -306,7 +310,7 @@ color: rgba(255, 0, 0, 0.5);
 background-color: #f0f0f0;
 background-image: url('image.jpg');
 background-size: cover;
-```
+
 
 ### ตัวอย่างการใช้งาน: การสร้างการ์ดสินค้า
 
