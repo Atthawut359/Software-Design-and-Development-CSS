@@ -397,8 +397,198 @@ background-size: cover;
 ### ผลการทดลอง
 ```html
 [วางโค้ดที่นี่]
+<head>
+    <style>
+        p {
+            color: blue;
+            font-size: 16px;
+        }
+    </style>
+[<!DOCTYPE html>
+<html>
+<head>
+    <title>Football Player Card</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Sarabun', sans-serif;
+        }
+
+        nav {
+            background-color: #2c3e50;;
+            padding: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav > ul > li {
+            margin: 0 10px;
+        }
+
+        .menu-item {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        .menu-item:hover {
+            background-color: #555;
+            border-radius: 3px;
+        }
+        
+        #active {
+            background-color: #007bff;
+            border-radius: 3px;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .product-card {
+            width: 300px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            background-color: white;
+            margin-bottom: 20px;
+        }
+
+        .product-image img {
+            width: 100%;
+            height: 230px;
+            object-fit: cover;
+        }
+
+        .product-info {
+            padding: 15px;
+        }
+
+        .product-title {
+            color: #333;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            color: #007bff;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .product-description {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .product-button {
+            display: block;
+            background: linear-gradient(to right, #28a745, #218838); /* Change this to your desired gradient */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            text-decoration: none;
+            margin-top: 15px;
+            border-radius: 4px;
+        }
+
+        .product-button:hover {
+            background: linear-gradient(to right, #218838, #1e7e34); /* Change this to a slightly darker gradient */
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#" class="menu-item">หน้าแรก</a></li>
+            <li><a href="#" class="menu-item" id="active">สินค้า</a></li>
+            <li><a href="#" class="menu-item">เกี่ยวกับเรา</a></li>
+            <li><a href="#" class="menu-item">ติดต่อ</a></li>
+        </ul>
+    </nav>
+
+    <h1>Football Player Card</h1>
+
+    <div class="product-container">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product1.jpg" alt="Gabriel Omar Batistuta">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Gabriel Omar Batistuta</h2>
+                <p class="product-price">฿150</p>
+                <p class="product-description">
+                    <h2> batigol</h2>
+                    He is a club legend,Fiorentina and footballers who have high kicking power and can score goals with precision.
+                </p>
+                <a href="#" class="product-button">Add to Cart</a>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product2.jpg" alt="andrea pirlo">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">andrea pirlo</h2>
+                <p class="product-price">฿170</p>
+                <p class="product-description">
+                    <h2>The Maestro</h2>
+                    Legendary defensive midfielder for AC Milan
+                </p>
+                <a href="#" class="product-button">Add to Cart</a>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product3.jpg" alt="Thierry Daniel Henry">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Thierry Henry</h2>
+                <p class="product-price">฿200</p>
+                <p class="product-description">
+                    <h2>The King</h2>
+                    Premier League legend and King of Highbury
+                </p>
+                <a href="#" class="product-button">Add to Cart</a>
+            </div>
+        </div>
+        
+        <div class="product-card">
+            <div class="product-image">
+                <img src="images/product4.jpg" alt="Paul Scholes">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Paul Scholes</h2>
+                <p class="product-price">฿180</p>
+                <p class="product-description">
+                    <h2>The Ginger Prince.</h2>
+                    Manchester United midfielder legend
+                </p>
+                <a href="#" class="product-button">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+]
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![F3](https://github.com/user-attachments/assets/c8d83a92-d2da-4db4-b6a4-c42a508e4354)
 
 [](#การทดลองที่-4-การจัดการขนาดและระยะห่าง)
 ## การทดลองที่ 4: การจัดการขนาดและระยะห่าง
