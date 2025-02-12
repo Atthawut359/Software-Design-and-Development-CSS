@@ -1178,11 +1178,124 @@ blockquote {
 ### ผลการทดลอง
 ```html
 [วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<div class="product-card">
+<div class="product-image"></div>
+<div class="product-info">
+<img src="Images/gun1.jpg" alt="Cattleman Revolver"
+<h2 class="product-title"><h2>Cattleman Revolver</h2>
+<p class="product-price">$1,200</p>
+<p class="product-description">
+
+    A classic revolver from the popular cowboy game, Red dead redemtion 2
+</p>
+<a href="#" class="product-button">ADD TO CART</a>
+</div>
+</div>
+</body>
+</html> 
 ```
 ```css
 [วางโค้ด CSS ที่นี่]
+<style>
+
+    .product-card {
+
+        width: 400px;
+
+        border-radius: 8px;
+
+        overflow: hidden;
+
+        box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+
+        background-color: rgb(255, 255, 255);
+
+    }
+
+    .product-image {
+
+        width: 100%;
+
+        height: 20px;
+
+        background-image: url('product.jpg');
+
+        background-size: cover;
+
+        background-position: center;
+
+    }
+
+    .product-info {
+
+        padding: 15px;
+
+    }
+
+    .product-title {
+
+        color: #030101;
+
+        font-size: 18px;
+
+        margin-bottom: 10px;
+
+    }
+
+    .product-price {
+
+        color: #ff0000;
+
+        font-size: 24px;
+
+        font-weight: bold;
+
+    }
+
+    .product-description {
+
+        color: #735204;
+
+        font-size: 14px;
+
+        line-height: 1.5;
+
+    }
+
+    .product-button {
+
+        display: block;
+
+        background: linear-gradient(to right, #ff0000, #6b0505);
+
+        color: white;
+
+        text-align: center;
+
+        padding: 10px;
+
+        text-decoration: none;
+
+        margin-top: 15px;
+
+        border-radius: 4px;
+
+    }
+
+    .product-button:hover {
+
+        background: linear-gradient(to right, #0056b3, #003980);
+
+    }
+</style> 
 ```
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
+![F6 1](https://github.com/user-attachments/assets/24ee8fe7-4935-4568-b446-de79b8c4ab03)
 
 
 ### ตัวอย่างการใช้งาน: การสร้างเลย์เอาต์ Modern Dashboard
